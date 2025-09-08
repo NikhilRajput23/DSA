@@ -7,8 +7,8 @@ class Solution {
             int b=n-i;
             if(a+b==n){
                 while(a!=0){
-                    if(a%10==0){
-                        not=1;
+             if(a%10==0){
+              not=1;
                     }
                     a/=10;
                 }
