@@ -49,16 +49,12 @@ class Solution {
                     ) &&
                     !visited[neighborRow][neighborCol]
                 ) {
-                    // Get the height of the neighbor cell
                     int neighborHeight = heightMap[neighborRow][neighborCol];
 
-                    // If the neighbor's height is less than the current boundary height, water can be trapped
-                    if (neighborHeight < minBoundaryHeight) {
-                        // Add the trapped water volume
-                        totalWaterVolume += minBoundaryHeight - neighborHeight;
+               if (neighborHeight < minBoundaryHeight) {
+                            totalWaterVolume += minBoundaryHeight - neighborHeight;
                     }
 
-                    // Push the neighbor into the boundary with updated height (to prevent water leakage)
                     boundary.offer(
                         new Cell(
                             Math.max(neighborHeight, minBoundaryHeight),
