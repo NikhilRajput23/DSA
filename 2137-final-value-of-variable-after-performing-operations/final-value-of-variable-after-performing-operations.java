@@ -2,7 +2,7 @@ class Solution {
     public int finalValueAfterOperations(String[] op) {
         int x=0;
         for(String po:op){
-         if("X++".equals(po)||"++X".equals(po)){
+         if(po.contains("+")){
             x++;
          }else{
             x--;
