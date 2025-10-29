@@ -1,6 +1,6 @@
 class Solution {
     public int smallestNumber(int n) {
-        int x=1;
+        int x=0;
         while(n>x){
             x=x*2+1;
         }
