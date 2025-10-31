@@ -1,15 +1,15 @@
 class Solution {
     public int[] getSneakyNumbers(int[] nums) {
-        int[] count = new int[101];  
-        int[] ans = new int[2];
-        int j = 0;
-
-        for (int x : nums) {
-            count[x]++;
-            if (count[x] == 2) { 
-                ans[j++] = x;
+        int[] result = new int[2];
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {  
+                if (nums[i] == nums[j]) {
+                    result[count] = nums[i];
+                    count++;
+                    break;  
+                }
             }
-        }
-        return ans;
+        }     return result;
     }
 }
