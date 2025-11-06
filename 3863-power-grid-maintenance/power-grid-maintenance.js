@@ -7,17 +7,16 @@
 
 var processQueries = function(c, connections, queries) {
     const graph = Array.from({ length: c + 1 }, () => []);
-    for (const [u, v] of connections) {
+for (const [u, v] of connections) {
         graph[u].push(v);
         graph[v].push(u);
     }
-    const componentId = Array(c + 1).fill(-1);
+  const componentId = Array(c + 1).fill(-1);
     let currentComponent = 0;
-
-    const dfs = (node, id) => {
+const dfs = (node, id) => {
         componentId[node] = id;
-        for (const neighbor of graph[node]) {
-            if (componentId[neighbor] === -1) {
+  for (const neighbor of graph[node]) {
+    if (componentId[neighbor] === -1) {
                 dfs(neighbor, id);
             }
         }
