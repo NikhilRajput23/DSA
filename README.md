@@ -1,80 +1,59 @@
-# 🧩 DSA Repository
+# 📚 Data Structures & Algorithms (DSA) Practice
 
-## 🚀 Overview  
-This repository contains my practice code and solutions for **Data Structures and Algorithms (DSA)**.  
-It includes a wide range of problems — from **arrays, strings, and sorting algorithms** to **trees, graphs, and dynamic programming**.  
-The goal of this repository is to strengthen problem-solving skills and understand core computer science fundamentals.
+This repository contains my practice solutions for **Data Structures and Algorithms (DSA)** problems.  
+It includes a wide range of problems solved in **Java, Python, and JavaScript**, covering fundamental data structures and core algorithmic concepts.
 
 ---
 
-## 🧠 Key Learning Areas  
-- 📚 **Fundamental Data Structures:** Arrays, Linked Lists, Stacks, Queues, Trees, Graphs  
-- ⚙️ **Core Algorithms:** Sorting, Searching, Recursion, Backtracking  
-- 🧩 **Advanced Topics:** Dynamic Programming, Greedy Algorithms, Graph Traversal (BFS/DFS)  
-- 💻 **Programming Languages Used:** Java & Python  
-- 📈 **Optimization Techniques:** Time and Space Complexity analysis  
+## 🚀 What’s Inside
+
+- **Arrays & Strings**
+- **Sorting & Searching**
+- **Linked Lists**
+- **Stacks & Queues**
+- **Trees & Binary Search Trees**
+- **Graphs (BFS, DFS)**
+- **Dynamic Programming**
+- **Greedy Algorithms**
+- **Interview-style problems (LeetCode / Coding Ninjas / GFG etc.)**
 
 ---
 
-## 📂 Repository Structure  
-A simple and clean structure for organizing problems:
+## 💡 Purpose
 
-DSA/
-│
-├── Arrays/
-│ ├── 01_TwoSum.java
-│ ├── 02_MaxSubarraySum.java
-│ └── README.md
-│
-├── Strings/
-│ ├── 01_ReverseString.java
-│ ├── 02_AnagramCheck.java
-│ └── README.md
-│
-├── Sorting/
-│ ├── BubbleSort.java
-│ ├── MergeSort.java
-│ └── QuickSort.java
-│
-├── LinkedList/
-│ ├── SinglyLinkedList.java
-│ ├── ReverseLinkedList.java
-│ └── README.md
-│
-├── Stack_Queue/
-│ ├── StackUsingArray.java
-│ ├── QueueUsingLinkedList.java
-│ └── BalancedParentheses.java
-│
-├── Trees/
-│ ├── BinaryTreeTraversal.java
-│ ├── BinarySearchTree.java
-│ └── TreeHeight.java
-│
-├── Graphs/
-│ ├── BFS.java
-│ ├── DFS.java
-│ └── ShortestPath.java
-│
-├── DynamicProgramming/
-│ ├── FibonacciDP.java
-│ ├── KnapsackProblem.java
-│ └── LongestCommonSubsequence.java
-│
-└── README.md
-
+The goal of this repository is to:
+- **Strengthen problem-solving skills**
+- Understand core Computer Science fundamentals
+- Prepare for technical interviews and competitive programming
 
 ---
 
-## 🧰 Tools & Technologies
-- **Languages:** Java, Python  
-- **Editor:** VS Code / IntelliJ IDEA / PyCharm  
-- **Version Control:** Git & GitHub  
+## 🧠 How to Use
+
+Each folder contains problems grouped by topic with clear filenames for each challenge. You can:
+1. Browse the problems
+2. Run the code in your IDE
+3. Compare approaches and optimize
 
 ---
 
-## 🧩 How to Run the Code
-### For Java:
-```bash
-javac FileName.java
-java FileName
+## 📦 Languages & Tools
+
+- **Java**
+- **Python**
+- **JavaScript**
+- Version Control: Git & GitHub
+
+---
+
+## ⭐ Contributions
+
+Feel free to explore the code, study the approaches, and open issues if you find improvements or alternative solutions!
+
+---
+
+## ⚠️ Disclaimer
+
+This repository is for **personal learning and practice purposes** only.
+
+---
